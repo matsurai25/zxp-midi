@@ -1,0 +1,35 @@
+@import "core/*";
+@import "modules/*";
+
+body{
+  background-color: #333333;
+}
+
+.message{
+  padding: 5px;
+  background-color: #222;
+  color: #FFF;
+  margin-bottom: 2px;
+  display: flex;
+}
+.time{
+  font-size: 8px;
+  display: inline-block;
+  width: 60px;
+  color: #44b69b;
+}
+.type{
+  font-size: 8px;
+  display: inline-block;
+  width: 60px;
+}
+.channel{
+  font-size: 8px;
+  display: inline-block;
+  width: 20px;
+  color: #616161;
+}
+.value{
+  font-size: 8px;
+  display: inline-block;
+}

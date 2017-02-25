@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    link(id="hostStyle", rel="stylesheet", href="./assets/css/bundle.css")
+
+  body
+    #app
+      .message(v-for='message in messages')
+        .time
+          | {{ message.time }}
+        .type
+          | {{ message.type }}
+        .channel
+          | {{ message.channel }}
+        .value
+          | {{ message.value }}
+
+    script(src="./assets/js/bundle.js")
